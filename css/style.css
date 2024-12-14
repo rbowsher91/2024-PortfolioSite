@@ -417,7 +417,10 @@ header {
 }
 
 #portfolio_video {
+    display: flex;
     text-align: center;
+    align-items: center;
+
 }
 
 /* footer */
