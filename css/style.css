@@ -417,7 +417,7 @@ header {
 }
 
 #portfolio_video {
-    margin: auto
+    text-align: center;
 }
 
 /* footer */
