@@ -416,6 +416,9 @@ header {
     opacity: .5;
 }
 
+#portfolio_video {
+    margin: auto
+}
 
 /* footer */
 
