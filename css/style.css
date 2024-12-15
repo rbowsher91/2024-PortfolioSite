@@ -485,10 +485,9 @@ header {
         display: inline-block; /* Ensures the anchor is treated as an inline-block element */
     }
     
-    ..centerLeslie img {
+    .centerLeslie img {
         display: block; /* Makes the image a block element */
         margin: 0 auto; /* Centers the image within the anchor */
         max-width: 100%; /* Ensures responsiveness */
         height: auto; /* Maintains aspect ratio */
     }
-}
