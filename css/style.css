@@ -483,3 +483,8 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+
+.centerLeslie {
+    display: flex;
+    justify-content: center;
+}
