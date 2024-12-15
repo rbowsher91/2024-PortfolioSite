@@ -419,7 +419,7 @@ header {
 #portfolio_video {
     display: flex;
     text-align: center;
- 
+    flex-direction: column;
 
 }
 
