@@ -393,15 +393,16 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: auto;
-    padding: 0;
-    margin: 0;
-    background-color: transparent;
-    overflow: hidden; 
+    align-items: stretch; /* Ensures all items stretch uniformly */
+    
 }
 
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
+    min-height: 0;
+    min-width: 0;
+    box-sizing: border-box;
 }
 
 .portfolio__img {
