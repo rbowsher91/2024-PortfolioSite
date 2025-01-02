@@ -393,6 +393,10 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: auto;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    overflow: hidden; 
 }
 
 .portfolio__item {
