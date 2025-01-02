@@ -403,6 +403,7 @@ header {
     min-height: 0;
     min-width: 0;
     box-sizing: border-box;
+    object-fit: cover;
 }
 
 .portfolio__img {
