@@ -394,7 +394,7 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: 480px;
     align-items: stretch; /* Ensures all items stretch uniformly */
-    
+    gap: 0;
 }
 
 .portfolio__item {
@@ -403,7 +403,6 @@ header {
     min-height: 0;
     min-width: 0;
     box-sizing: border-box;
-    object-fit: cover;
 }
 
 .portfolio__img {
